@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 0.825rem;
+}
+
+button, input{
+    border: none;
+    outline: none;
+}
+.container{
+    background: ghostwhite;
+    width: 100vw;
+    height: 100vh;
+}
+
+.input-container{
+    background: hsl(0, 0%, 16%);
+    color: white;
+}
+
+.input-info{
+    width: 70vw;
+    min-height: 10vh;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.input-info h3{
+    font-weight: lighter;
+}
+
+.input-info p{
+    margin-bottom: 0.3em;
+    color: rgb(196, 196, 196);
+}
+
+.input{
+    width: 70vw;
+    display: flex;
+}
+
+.input button,.input input{
+    background: white;
+    color: rgb(97, 97, 97);
+}
+
+.input button{
+    padding-left: 0.5em;
+}
+
+.check-times{
+    padding-right: 0.4em;
+    cursor: pointer;
+    display: none;
+}
+
+input{
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 0.7em;
+}
+
+.output-container{
+    width: 60vw;
+    margin: 1em auto 0;
+    border: 1px solid  rgb(40, 172, 165);
+    display: none;
+    
+}
+
+.location-header{
+    position: relative;
+    background: rgb(40, 172, 165);
+    color: white;
+    padding: 0.5em 0.2em;
+}
+
+.times{
+    position: absolute;
+    top: 0.5em;
+    right: 0.8em;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.location-info{
+    padding: 0.7em;
+}
+
+.location-info p{
+    font-weight: bold;
+}
+
+.location-info span{
+    font-weight: normal;
+    display: inline-block;
+    margin-left:0.2em;
+}
+
+.not-found{
+    border: 1px solid rgb(219, 60, 60);
+    color: rgb(219, 60, 60); 
+    background: rgb(238, 200, 200);
+    padding: 0.7em;
+    width: 50vw;
+    margin: 1em auto;
+    border-radius: 0.1rem;
+    display: none;
+}
